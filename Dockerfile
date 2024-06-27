@@ -25,3 +25,5 @@ RUN mkdir /build \
 
 RUN mv /build/subsync/bin/portable /subsync && \
     rm -rf /build
+
+RUN pip install guessit
